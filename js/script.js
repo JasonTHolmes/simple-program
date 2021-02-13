@@ -72,3 +72,17 @@ function add5() {
     var two = parseFloat(numtwo5.value) || 0;
     addsum5.innerText = one+two;
     }
+
+
+
+var totalsumoutput = document.getElementById('total-sum');
+
+function add5() {
+    var one = parseFloat(addsum1.value) || 0;
+    var one = parseFloat(addsum2.value) || 0;
+    var one = parseFloat(addsum3.value) || 0;
+    var one = parseFloat(addsum4.value) || 0;
+    var two = parseFloat(addsum5.value) || 0;
+    totalsumoutput.innerText = one+two+three+four;
+    }
+    get 

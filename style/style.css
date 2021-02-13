@@ -5,11 +5,11 @@
 }
 
 input {
-    color: black;
+    color: rgb(182, 116, 116);
 }
 
 body {
-    background-color: rgb(15, 14, 14);
+    background-color: rgb(95, 59, 59);
 }
 
 .equation-container{
