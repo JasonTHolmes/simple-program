@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    padding: 0;
     color: white;
 }
 
@@ -8,5 +9,36 @@ input {
 }
 
 body {
-    background-color: rgb(80, 0, 0);
+    background-color: rgb(15, 14, 14);
+}
+
+.equation-container{
+ /* border: solid 1px red; */
+}
+
+
+.day-1,
+.day-2,
+.day-3,
+.day-4,
+.day-5,
+.day-6,
+.day-7,
+.day-8,
+.day-9,
+.day-10,
+.day-11,
+.day-12,
+.day-13,
+.day-14,
+.day-15,
+.day-16{
+    display: inline;
+    /* float: left; */
+    margin-right: 2px;
+}
+
+.sum-container {
+    /* border: solid 1px red; */
+    display: inline-block;
 }
