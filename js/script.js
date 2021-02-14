@@ -75,14 +75,24 @@ function add5() {
 
 
 
-var totalsumoutput = document.getElementById('total-sum');
 
-function add5() {
+var sumout = document.getElementById('total-sum');
+
+addsum1.addEventListener('text', add6);
+addsum2.addEventListener('text', add6);
+addsum3.addEventListener('text', add6);
+addsum4.addEventListener('text', add6);
+addsum5.addEventListener('text', add6);
+
+function add6() {
     var one = parseFloat(addsum1.value) || 0;
-    var one = parseFloat(addsum2.value) || 0;
-    var one = parseFloat(addsum3.value) || 0;
-    var one = parseFloat(addsum4.value) || 0;
-    var two = parseFloat(addsum5.value) || 0;
-    totalsumoutput.innerText = one+two+three+four;
+    var two = parseFloat(addsum2.value) || 0;
+    var three = parseFloat(addsum3.value) || 0;
+    var four = parseFloat(addsum4.value) || 0;
+    var five = parseFloat(addsum5.value) || 0;
+    sumout.innerText = one+two+three+four+five;
     }
-    get 
+
+
+
+
