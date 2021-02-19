@@ -4,9 +4,9 @@ var numone1 = document.getElementById('d-1-num-one');
 var numtwo1 = document.getElementById('d-1-num-two');
 var addsum1 = document.getElementById('day-1-add-sum');
 
-var h1Element = document.getElementsByTagName('h1');
+var h1element = document.getElementsByTagName('h1');
 
-h1Element.innerText;
+var h1element2 = h1element.innerText;
 
 numone1.addEventListener('input', add);
 numtwo1.addEventListener('input', add);
@@ -17,4 +17,4 @@ function add() {
     addsum1.innerText = one+two;
     }
 
-console.log('h1Element')
+console.log('h1element2')
