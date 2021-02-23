@@ -4,15 +4,28 @@
     color: white;
 }
 
+.container {
+    margin: 10px;
+    border: solid 2px red;
+}
+
 input {
     color: rgb(10, 10, 10);
 }
 
+
+
+
+
+
+
+
+
+
+
 body {
     background-color: rgb(77, 77, 77);
 }
-
-
 
 
 .day-1{
@@ -30,5 +43,9 @@ body {
 .month-option,
 .day-option,
 .year-option {
+    color: black;
+}
+
+select{
     color: black;
 }
